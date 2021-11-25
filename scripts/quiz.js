@@ -1,6 +1,6 @@
 var formdata=document.querySelector(".formlist");
-var buttonCheck=document.querySelector(".check");
-var outputMsg =document.querySelector(".msg");
+var buttonCheck=document.querySelector(".submit");
+var outputMsg =document.querySelector(".qmsg");
 const answers=["180°","60°","45°","24","12"];
 
 function clcikHandler(){

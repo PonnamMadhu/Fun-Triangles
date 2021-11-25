@@ -1,17 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .container{
     display: flex;
     flex-direction: column;
     text-align: center;
+   
+}
+body{
+    background-color:#3aafa9 ;
+    color: #feffff;
+   
+}
+header>h1{
+    margin-bottom: 0.3em;
+    color:lightskyblue
+}
+h3{
+color:lightskyblue;
+}
+h2{
+color:#17252a
 }
 a{
     border: 1px solid black;
     padding:max-content;
     text-decoration: none;
     margin-left: 1rem;
+    background-color: lightskyblue;
+    color: blue;
+    border-radius: 0.5rem;
+    
+    
 }
 header{
+  
+    height: 15vh;
     text-align: center;
+    background-color: #2b7a78;
+    
 }
+.qdes{
+    color:#def2f1 ;
+    font-size: small;
+    margin: 0.5rem;
+}
+
 input{
     margin: 1rem;
     margin-top: 0rem;
@@ -19,14 +54,44 @@ input{
     align-self: center;
 }
 .submit{
-    margin-left: 40%;
+   margin-left: 45%;
     border-radius: 1rem;
+    margin-bottom: 1rem;
+    background-color: #17252a;
+    color: #feffff;
 }
 .check{
     width: fit-content;
     align-self: center;
+    background-color: #17252a;
+    color: #feffff;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
 }
 footer>a{
     width: fit-content;
     align-self: center;
+     background-color: lightskyblue;
+    color: blue;
+    border-radius: 0.5rem;
+}
+footer{
+    background-color: #2b7a78;
+    margin-top: 5vh;
+    height: 15vh;
+    
+}
+form>div>div>p{
+    color:#17252a ;
+}
+.msg{
+    color: #17252a;
+    margin:1rem;
+    font-size:larger;
+}
+.qmsg{
+    color: #17252a;
+    margin:1rem;
+    font-size:larger;
+    text-align: center;
 }
